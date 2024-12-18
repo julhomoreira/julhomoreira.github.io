@@ -17,7 +17,11 @@ body {
     font-family: sans-serif;
 }
 
-body { background-color: lightgreen; }
+body { 
+    background-color: lightgreen; 
+    
+}
+
 
 /* Desktops */
 @media (min-width: 768px) {
@@ -35,6 +39,7 @@ h1 {
     letter-spacing: -2px;
     margin-bottom: 12px;
     line-height: 1.2;
+    
 }
 
 h2 {
@@ -55,6 +60,7 @@ h3 {
 p {
     font-size: 20px;
     margin-bottom: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a { color: darkgreen; }
