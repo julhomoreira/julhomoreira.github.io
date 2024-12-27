@@ -1,0 +1,27 @@
+body {
+  font-family: "Playwrite US Modern", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#img1{
+  display: block;
+  border: 5px solid #000; /* Borda básica */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
+  transition: transform 0.8s ease, box-shadow 0.2s ease;
+}
+
+#img1:hover {
+  transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+  box-shadow: 0 10px 20px rgb(230, 6, 6); /* Sombra mais intensa */
+}
+
+#img2{
+  display: block;
+  border: 3px solid #000; /* Borda básica */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 4px rgba(233, 6, 6, 0.911); /* Sombra */
+  transition: transform 0.8s ease, box-shadow 0.2s ease;
+}
